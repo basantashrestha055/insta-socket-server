@@ -1,0 +1,28 @@
+{
+  "name": "insta-socket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "node src/server.ts",
+    "socket": "tsx src/server.ts",
+    "dev": "concurrently \" npm run socket \""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.6",
+    "concurrently": "^10.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3",
+    "tsx": "^4.22.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "typescript": "^6.0.3"
+  }
+}
