@@ -4,8 +4,9 @@
   "description": "",
   "main": "src/server.ts",
   "scripts": {
-    "start": "node src/server.ts",
-    "socket": "tsx src/server.ts",
+    "start": "tsx src/server.js",
+    "socket": "tsx src/server.js",
+    "build": "npm install && tsc --build",
     "dev": "concurrently \" npm run socket \""
   },
   "keywords": [],
